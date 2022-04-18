@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.is-scroll-column
+{
+    overflow: auto; 
+    height:95vh;
+    background-color: #eaeaea;
+    border-right: 3px solid #eaeaea;
+}
+
+.card
+{
+    border-radius: 0px;
+}
+
+.left-shadowed
+{
+    // box-shadow:  -28px 0px 25px #e6e6e6,
+    // 28px 0px 25px #ffffff;
+    box-shadow: -4px 1px 17px 1px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -4px 1px 17px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: -4px 1px 17px 1px rgba(0,0,0,0.21);
+}
